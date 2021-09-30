@@ -14,8 +14,8 @@ function Column({toggle, modal, data, handleInputChange,
                     handleShift={handleShift}
                     index={i}
                     colIndex={index}
-                   // toggle={toggle}
-                   // modal={modal}
+                   toggle={toggle}
+                   modal={modal}
                 />
             ))}
             <input
